@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+/*///////////////////////////////////////////////////////////////////////Table of Contents:*/
+/*    1. Global Styles*/
+/*    2. Typografie*/
+/*    3. Areas*/
+/*        3.1 Header*/
+/*        3.2 Testimonial*/
+/*        3.3 Support*/
+/*        3.4 Faq*/
+/*        3.5 Footer*/
+/*///////////////////////////////////////////////////////////////////////!*/
+/*!*(grijs #899CA0 en donkergroen #1C2B32*!*/
+/*!*lettertype in het design is "Poppin*!*/
+
+/*!*header*/
+
+/*!*!*!//////////////////////!*/
+/*!*    1. Global Styles*!*/
+/*!* *!*!*/
+/*///////////////////////!*!*!*!*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color: #1C2B32
+}
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/*!*!*!//////////////////////!*/
+/*!*    2. Typography*!*/
+/*///////////////////////!*!*!*!*/
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 64px 0;
+}
+
+h2 {
+    text-align: center
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+a,
+a:link,
+a:visited {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*///////////////////////!*!*/
+/*!*    3. Areas*!*/
+/*///////////////////////!*!*!*!*/
+
+
+/*///////////// 3.1 Header ////////////!**/
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-content {
+    padding: 110px 0 280px 0;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 1000px;
+}
+
+.hero-input {
+    padding: 24px 32px;
+    color: #1C2B32;
+    background-color: transparent;
+    border: 2px solid #1C2B32;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 50px 0 0 50px;
+}
+
+.hero-input::placeholder {
+    color: #1C2B32;
+    font-size: 17px;
+}
+
+.hero-input:hover::placeholder, .hero-input:focus::placeholder {
+    color: transparent;
+}
+
+.hero-btn {
+    padding: 24px 32px;
+    color: #899CA0;
+    background-color: #1C2B32;
+    border: 2px solid #1C2B32;
+    margin: -10px;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+
+}
+
+
+/*///////////// 3.2 Testimonial /////////////*/
+.sec-opinion {
+    margin: 60px 0;
+}
+
+.box-opinion {
+    position: relative;
+    padding: 60px 96px 64px 150px;
+    margin: 60px 0;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px 1px rgba(24, 30, 75, 0.12), 0 6px 20px 5px rgba(24, 39, 75, 0.12);
+    /*shadow*/
+}
+
+.opinion-quote {
+    margin-bottom: 24px;
+}
+
+.opinion-quote-icon {
+    position: absolute;
+    left: 100px;
+    top: 60px;
+}
+
+.opinion-person-img {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.opinion-name {
+    display: inline;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+
+/*///////////// 3.3 Support /////////////*/
+.sec-picture {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.sec-text {
+    margin-top: 20px;
+}
+
+.sec-btn {
+    padding: 15px 30px;
+    color: white;
+    background-color: #1C2B32;
+    border: 5px solid #1C2B32;
+    margin: 20px 0;
+    font-size: 15px;
+    border-radius: 50px 50px;
+    outline: none;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+details {
+    background-color: white;
+    border-radius: 4px;
+    padding: 0.5em 0.5em 0;
+}
+
+details > summary {
+    padding: 10px
+}
+
+details > p {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #899CA0;
+    padding: 30px;
+    margin: 0 0 10px 10px;
+    color: white;
+}
+
+details[open] summary {
+    /*border-bottom: 1px solid red;*/
+    /*margin-bottom: 0.5em;*/
+    background-color: white;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+
+/*///////////// 3.5 Footer /////////////*/
+.footer{
+    text-align: center;
+    padding: 5px;
+    background-color: #899CA0;
+    margin-top: 50px;
+}
+
+.footer-copyright{
+    color: white;
+    font-size: small;
+}
